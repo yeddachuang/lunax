@@ -78,6 +78,8 @@ header {
   padding: 10px 12px;
 }
 
+/* Background Setting */
+
 .home_bg {
   background-image: url(../images/xmap.png);
   background-size: cover;
@@ -89,57 +91,69 @@ header {
 }
 
 .explore {
-  background-image: url(../images/explore.png);
+  /*background-image: url(../images/explore.png);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
+  position: 100%;
   width: 100%;
 }
 
 .course {
   background-color: #f9f9f9;
-  background-image: url(../images/course.png);
+  /*background-image: url(../images/course.png);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
+  position: 100%;
   width: 100%;
 }
 
 .event {
-  background-image: url(../images/event.png);
+  /*background-image: url(../images/event.png);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
+  position: 100%;
   width: 100%;
 }
 
 .community {
-  background-image: url(../images/community.png);
+  background-color: #f9f9f9;
+  /*background-image: url(../images/community.png);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
+  position: 100%;
+  width: 100%;
+}
+
+.personal_xmap {
+  /*background-image: url(../images/personal_xmap.png);*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: 100%;
   width: 100%;
 }
 
 .join_us {
-  background-image: url(../images/join_us.png);
+  background-color: #f9f9f9;
+  /*background-image: url(../images/join_us.png);*/
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
-  position: relative;
+  position: 100%;
   width: 100%;
 }
 
-
+/* Container Setting */
 
 .container_table {
   display: table;
@@ -250,8 +264,6 @@ h2 {
   clear: both;
 }
 
-
-
 .service-content {
   float: left;
   width: 33.33333333%;
@@ -327,7 +339,15 @@ h3.resume-subtitle {
 
 .quote-inner {
   color: #fff;
+  padding: 80px 0;
   text-align: center;
+  background-image: url(../images/join_us.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  position: 100%;
+  width: 100%;
 }
 
 .quote-inner h3 {
